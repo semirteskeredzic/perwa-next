@@ -133,6 +133,12 @@
     display: inline-block;
 }
 
+@media screen and (max-width: 425px) {
+    .paper {
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .imageSection {
         display: none;
