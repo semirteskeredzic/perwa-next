@@ -1,0 +1,14 @@
+.btnPrimaryRe {
+    background: #189eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.btnPrimaryRe:focus {
+    outline: none;
+}
+

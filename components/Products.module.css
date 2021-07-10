@@ -1,0 +1,41 @@
+.tableContainer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.headingOne {
+    padding-left: 20px;
+}
+
+.thClass {
+    padding: 10px;
+}
+
+.tdClass {
+    padding: 5px;
+}
+
+.paginationContainer {
+    padding: 30px;
+    text-align: center;
+}
+
+.paginationProductsContainer {
+    padding: 30px;
+    text-align: center;
+}
+
+.paginationBox {
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.active {
+    border: 1px solid red;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}

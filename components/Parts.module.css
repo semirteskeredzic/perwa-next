@@ -1,0 +1,175 @@
+.tableContainer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.headingOne {
+    padding-left: 20px;
+}
+
+.thHead {
+    padding: 10px;
+    padding-bottom: 20px;
+    /*background: #dedede;*/
+}
+
+.tdClass {
+    padding: 15px 5px;
+}
+
+.tableRow:hover {
+    background: #f2f2f2;
+    opacity: 0.8;
+
+}
+
+.paginationContainer {
+    padding: 30px;
+    text-align: center;
+}
+
+.paginationBox {
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    background: none;
+}
+
+.active {
+    border: 1px solid red;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    background: #189eff;
+    border: none;
+    border-radius: 6px;
+}
+
+.active:focus {
+    outline: none;
+}
+
+.paginationBox:focus {
+    outline: none;
+}
+
+.nextPrevBtns {
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+
+.nextPrevBtns:focus {
+    outline: none;
+}
+
+.btnPrimaryRe {
+    background: #189eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.btnPrimaryRe:focus {
+    outline: none;
+}
+
+.btnSecondaryRe {
+    background: darkgrey;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.btnSecondaryRe:focus {
+    outline: none;
+}
+
+.tableFooter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.itemsContainer {
+    padding-top: 8px;
+}
+
+.limitBox {
+    font-size: 14px;
+    border-radius: 4px;
+    height: 30px;
+    width: 40px;
+}
+
+.editBtn {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.deleteBtn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.editModal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalContent {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 5px;
+    position: relative;
+}
+
+.closeModal {
+    color: #000;
+    background: none;
+    border: none;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+
+.closeModal:focus {
+    outline: none;
+}
+
+.btnIco {
+    font-size: 20px;
+}
+
+.disabled {
+    color: lightgrey;
+}

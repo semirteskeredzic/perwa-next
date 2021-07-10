@@ -1,0 +1,29 @@
+.mainContainer {
+    margin: 30px;
+}
+
+.mainTableContainer {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.partsTable {
+    margin-top: 30px;
+}
+
+.mainBoxesContainer {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    padding: 20px;
+}

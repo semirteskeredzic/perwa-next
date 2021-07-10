@@ -1,0 +1,85 @@
+/*.suggestion-active {*/
+/*    background-color: #cccccc;*/
+/*}*/
+
+.tdClass {
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+}
+
+.buttonRow{
+    text-align: right;
+}
+
+.searchLocation {
+    text-align: right;
+    color: #cccccc;
+    font-style: italic;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.searchContainer {
+    padding-top: 14px;
+    margin: 0 auto;
+    width: 50vw;
+    text-align: center;
+}
+
+.inputField {
+    width: 70%;
+}
+
+.search {
+    width: 10%;
+}
+
+.xBtn {
+    text-align: right;
+    padding: 10px;
+}
+
+.btnX {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btnX:focus {
+    outline: none;
+}
+
+.suggestions {
+    box-shadow: 0 3px 10px #adadad;
+    display: table;
+    position: absolute;
+    background: white;
+    padding: 15px;
+    margin-top: 3px;
+    width: 50%;
+    z-index: 999;
+    top: 50px;
+    border-radius: 5px;
+
+}
+
+.btnPrimaryRe {
+    background: #189eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 15px;
+}
+
+.btnPrimaryRe:focus {
+    outline: none;
+}
+
+.search {
+    margin-left: 10px;
+}

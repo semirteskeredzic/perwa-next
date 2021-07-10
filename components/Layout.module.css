@@ -1,0 +1,196 @@
+.navbar {
+    background: none;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    height: auto;
+}
+.navItem {
+    padding: 10px;
+    color: black;
+}
+
+.navItemUser {
+    flex: auto;
+    text-align: right;
+    padding: 10px;
+}
+
+.userName {
+    margin: 4px;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    background: none;
+    border: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.mainBodyContainer {
+    background: url('../assets/loginBackground.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.main {
+    left: 280px;
+    margin: 0;
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+    max-width: calc(100% - 280px);
+}
+
+.mainContainer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: wrap;
+    max-width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.column {
+    margin: 0 auto;
+    width: 80vw;
+    padding: 20px;
+}
+
+.paper {
+    margin: 50px;
+    height: 80vh;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.imageSection {
+    max-width: 550px;
+    display: inline-block;
+    height: 100%;
+    /*background: url("../assets/pexels-chris-schippers-421927.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center*/
+}
+
+.imageElement {
+    border-radius: 5px;
+}
+
+.formSection {
+    margin-top: 100px;
+    padding: 20px;
+    width: 45%;
+    display: inline-block;
+    height: 100%;
+}
+
+.registerFormSection {
+    margin-top: 50px;
+    padding: 20px;
+    width: 45%;
+    display: inline-block;
+    height: 100%;
+}
+
+.titleLabel {
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.registerQuestion {
+    margin-top: 30px;
+}
+
+.loginQuestion {
+    padding: 0;
+    display: inline-block;
+}
+
+.submitBtn {
+    float: right;
+    width: 80px;
+    background: #10378D;
+    border: 1px solid #10378D;
+}
+
+.navLink {
+    padding: 0 0 0 10px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 850px) {
+    .imageSection {
+        display: none;
+    }
+
+    .formSection {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .registerQuestion {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 851px) {
+    .formSection {
+        width: 50%;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .forgotSpan {
+        vertical-align: middle;
+    }
+
+    .registerQuestion {
+        font-size: 12px;
+    }
+
+    .paper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .registerQuestion {
+        font-size: 14px;
+    }
+
+    .formSection {
+        width: 45%;
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .formSection {
+        margin-top: 50px;
+    }
+}
+

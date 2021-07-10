@@ -1,0 +1,28 @@
+.ulList {
+    list-style-type: none;
+    padding: 0;
+}
+
+input:disabled + .removePartName {
+    color: gray;
+    opacity: 0.6;
+}
+
+.removePartText {
+    text-align: right;
+    color: lightcoral;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+
+.removePartName {
+    display: inline-block;
+    margin: 0;
+}
+
+.listingElement {
+    position: relative;
+}
