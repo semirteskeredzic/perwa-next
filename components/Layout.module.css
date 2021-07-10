@@ -33,8 +33,7 @@
 
 .mainBodyContainer {
     background: url('../assets/loginBackground.png');
-    background-size: cover;
-    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 .main {
