@@ -76,6 +76,9 @@
     flex-direction: row;
     max-height: 600px;
     min-height: 470px;
+    -webkit-box-shadow: 3px 3px 15px #afafaf;
+    -moz-box-shadow: 3px 3px 15px #afafaf;
+    box-shadow: 3px 3px 20px #afafaf;
 }
 
 .imageSection {
