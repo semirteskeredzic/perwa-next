@@ -1,7 +1,8 @@
 .sidebar {
     height: 100%;
     display: inline-block;
-    background: linear-gradient(180deg,#303a4f,#2a3345);
+    /*background: linear-gradient(180deg,#303a4f,#2a3345);*/
+    background: #303a4f;
     width: 250px;
     position: absolute;
 }

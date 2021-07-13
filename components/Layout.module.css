@@ -32,8 +32,9 @@
 }
 
 .mainBodyContainer {
-    background: url('../assets/loginBackground.png');
-    background-attachment: fixed;
+    /*background: url('../assets/loginBackground.png');*/
+    /*background-attachment: fixed;*/
+    background-color: #f8f8f8;
 }
 
 .main {
@@ -73,12 +74,16 @@
     background: white;
     display: flex;
     flex-direction: row;
+    max-height: 600px;
+    min-height: 470px;
 }
 
 .imageSection {
     max-width: 550px;
     display: inline-block;
     height: 100%;
+    max-height: 600px;
+    min-height: 460px;
     /*background: url("../assets/pexels-chris-schippers-421927.jpg");*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
@@ -198,7 +203,7 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .formSection {

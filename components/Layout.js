@@ -50,15 +50,6 @@ const Layout = (props) => {
                             <a className="navbar-brand">Home</a>
                         </Link>
                     </NavItem>
-                    {/*<NavItem className={styles.navItemUser}>*/}
-                    {/*    {user ? (*/}
-                    {/*            <p className={styles.userName}>Hello, {user.username}</p>*/}
-                    {/*    ) : (*/}
-                    {/*        <Link href="/register">*/}
-                    {/*            <a className="nav-link">Register</a>*/}
-                    {/*        </Link>*/}
-                    {/*    )}*/}
-                    {/*</NavItem>*/}
                     <NavItem className={styles.navItem}>
                         <Link href="/register">
                             <a className="nav-link">Register</a>
@@ -70,14 +61,14 @@ const Layout = (props) => {
                 </Nav> : null}
             </header>
             <body className={styles.mainBodyContainer}>
-            {user ? (
-                <div className={styles.mainContainer}>
-                <Sidebar/>
-                <Header />
-                <Container className={styles.main}>{props.children}</Container>
-                </div>
-                ): (
-                <Container>{props.children}</Container>)}
+                {user ? (
+                    <div className={styles.mainContainer}>
+                        <Sidebar/>
+                        <Header />
+                        <Container className={styles.main}>{props.children}</Container>
+                    </div>
+                    ): (
+                    <Container>{props.children}</Container>)}
             </body>
         </>
     );
