@@ -32,8 +32,9 @@
 }
 
 .mainBodyContainer {
-    /*background: url('../assets/loginBackground.png');*/
-    /*background-attachment: fixed;*/
+    /*background: url('../assets/pexels-scott-webb-3255761.jpg');*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     background-color: #f8f8f8;
 }
 
@@ -106,8 +107,9 @@
 }
 
 .registerFormSection {
+    margin-top: 50px;
     padding: 20px;
-    width: 100%;
+    width: 45%;
     display: inline-block;
     height: 100%;
 }
@@ -137,12 +139,6 @@
 .navLink {
     padding: 0 0 0 10px;
     display: inline-block;
-}
-
-@media screen and (max-width: 425px) {
-    .paper {
-        margin: 0;
-    }
 }
 
 @media screen and (max-width: 850px) {
@@ -179,14 +175,6 @@
         margin-left: 0;
         margin-right: 0;
     }
-
-    .registerFormSection {
-        margin-top: 50px;
-        padding: 20px;
-        width: 45%;
-        display: inline-block;
-        height: 100%;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -213,4 +201,3 @@
         margin-top: 50px;
     }
 }
-
